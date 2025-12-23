@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Music Hub 2</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Hub — Featured Playlists</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-100 p-6">
+
+  <!-- HEADER -->
+  <header class="max-w-6xl mx-auto flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-indigo-500 flex items-center justify-center shadow-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="white">
+          <path d="M9 19V6l12-4v13" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          <circle cx="6" cy="18" r="2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+      <div>
+        <h1 class="text-xl font-semibold">Music Hub</h1>
+        <p class="text-sm text-gray-300">Your personal Spotify portal 🎵</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="max-w-6xl mx-auto mt-10 space-y-10">
+
+    <!-- TODAY'S HIT -->
+    <section class="bg-gradient-to-br from-gray-800/60 to-black/40 rounded-2xl p-6 shadow-xl">
+      <div class="flex items-center gap-4 mb-4">
+        <img src="https://th.bing.com/th/id/OIP.rbqySvVOBU4MJUsm_qiDZAHaI6?w=144&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="Kendrick Lamar cover" class="w-20 h-20 rounded-lg object-cover shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold">🔥 Today’s Hit — Kendrick Lamar</h2>
+          <p class="text-sm text-gray-300 mt-1">Stream Kendrick Lamar’s top songs and albums — the voice of a generation.</p>
+        </div>
+      </div>
+
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/artist/2YZyLoL8N0Wb9xBt1NhZWg?utm_source=generator"
+        width="100%" height="352" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+    </section>
+
+    <!-- CHILL VIBES -->
+    <section class="bg-gradient-to-br from-gray-800/60 to-black/40 rounded-2xl p-6 shadow-xl">
+      <div class="flex items-center gap-4 mb-4">
+        <img src="https://cdn.wallpapersafari.com/54/77/yRVFa8.jpg" alt="Chill vibes" class="w-20 h-20 rounded-lg object-cover shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold">🇪🇹 Top Ethiopian Music</h2>
+          <p class="text-sm text-gray-300 mt-1">Relax, unwind, and vibe out to smooth downtempo and mellow beats.</p>
+        </div>
+      </div>
+
+     <iframe
+   data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/63rZt7BWFRIBGxzTbbT3A4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      
+    </section>
+
+    <!-- WORKOUT BEATS -->
+    <section class="bg-gradient-to-br from-gray-800/60 to-black/40 rounded-2xl p-6 shadow-xl">
+      <div class="flex items-center gap-4 mb-4">
+        <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/18357/production/_121995199_gettyimages-1172292629.jpg" alt="Workout" class="w-20 h-20 rounded-lg object-cover shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold">💪 Drake's Beats </h2>
+          <p class="text-sm text-gray-300 mt-1">Get energized with the best drake tracks and high-tempo hits.</p>
+        </div>
+      </div>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/3TVXtAsR1Inumwj472S9r4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+
+    <!-- YOUR PICK -->
+    <section class="bg-gradient-to-br from-gray-800/60 to-black/40 rounded-2xl p-6 shadow-xl">
+      <div class="flex items-center gap-4 mb-4">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=60" alt="Custom playlist" class="w-20 h-20 rounded-lg object-cover shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold">🎧 Your Pick</h2>
+          <p class="text-sm text-gray-300 mt-1">Choose your own playlist — just swap the embed link below!</p>
+        </div>
+      </div>
+
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/playlist/37i9dQZF1DWXJfnUiYjUKT?utm_source=generator"
+        width="100%" height="380" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="max-w-6xl mx-auto mt-12 text-center text-gray-500 text-sm">
+    © <script>document.write(new Date().getFullYear())</script> Music Hub — Powered by Spotify
+  </footer>
+</body>
+</html>
+    
+  </body>
+  
+</html>
